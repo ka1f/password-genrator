@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container ">
+        <div class="hero "><h2>Password Generator</h2>
+        </div>
+
+        <div class="Password sett">
+            <input type="text" class="placehd" placeholder="Password..." disabled>
+            <button class="copy">copy</button>
+            </div>
+
+        <div class="length sett"><label for="length">Length</label>
+        <input class="inputlength" type="number" name="length" value="10" min="6" max="20" step="1">
+        </div>
+
+        <div class="uppercase sett">
+            <label for="uppercase">Uppercase</label>
+            <input id="inputuppercase" type="checkbox" name="uppercase" value="uppercase" class="checkbox">
+        </div>
+
+        <div class="lowercase sett">
+            <label for="lowercase">Lowercase</label>
+            <input id="inputlowercase" type="checkbox" name="lowercase" value="lowercase" class="checkbox" >
+        </div>
+
+        <div class="numbers sett">
+            <label for="numbers">Numbers</label>
+            <input  id="inputnumbers" type="checkbox" name="numbers" value="numbers" class="checkbox" >
+        </div>
+
+            <div class="symbols sett">
+                <label for="symbols">Symbols</label>
+                <input id="inputsymbols" type="checkbox" name="symbols" value="symbols" class="checkbox" >
+            </div>
+
+            <div class="genrate_btn">
+                <button class="btn">Generate</button>
+            </div>
+        </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
